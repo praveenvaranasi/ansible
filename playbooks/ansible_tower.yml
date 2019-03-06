@@ -1,0 +1,7 @@
+---
+- hosts: nodes
+  remote_user: varanasp
+  gather_facts: false
+  tasks:
+  - name: Ping the linux
+    ping:
