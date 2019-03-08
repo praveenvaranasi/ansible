@@ -1,5 +1,5 @@
 ---
-- hosts: Agents
+- hosts: all
   remote_user: varanasp
   gather_facts: false
   tasks:
